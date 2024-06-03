@@ -194,6 +194,13 @@ ro.hardware.kmsetkey=trustonic
 # Logd
 ro.logd.kernel=false
 
+# LMKD
+ro.lmk.kill_heaviest_task=true
+ro.lmk.use_psi=true
+ro.lmk.use_minfree_levels=false
+ro.lmk.thrashing_limit_decay=50
+ro.lmk.downgrade_pressure=30
+
 # Media
 debug.mediatek.disp_decompress=1
 debug.stagefright.c2inputsurface=-1
