@@ -176,4 +176,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit proprietary blobs
-include vendor/transsion/mt6789-common/BoardConfigVendor.mk
+include vendor/tecno/mt6789-common/BoardConfigVendor.mk

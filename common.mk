@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_PATH := device/transsion/mt6789-common
+COMMON_PATH := device/tecno/mt6789-common
 
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
@@ -462,4 +462,4 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/transsion/mt6789-common/mt6789-common-vendor.mk)
+$(call inherit-product, vendor/tecno/mt6789-common/mt6789-common-vendor.mk)

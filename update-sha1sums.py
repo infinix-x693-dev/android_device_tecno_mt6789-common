@@ -21,7 +21,7 @@ import sys
 from hashlib import sha1
 
 device = 'mt6789-common'
-vendor = 'transsion'
+vendor = 'tecno'
 
 with open('proprietary-files.txt', 'r') as f:
     lines = f.read().splitlines()

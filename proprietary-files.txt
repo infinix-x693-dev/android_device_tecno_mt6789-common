@@ -1,4 +1,4 @@
-## Transsion MT6789 Device blobs, unless stated otherwise
+## LG8n package version: LG8n-H891OPAeAf-S-GL-240531V2678, unless stated otherwise
 
 # AEE
 vendor/lib/libaedv.so
