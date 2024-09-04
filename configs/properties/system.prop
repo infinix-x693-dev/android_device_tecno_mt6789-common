@@ -8,6 +8,10 @@ ro.audio.usb.period_us=16000
 ro.config.vc_call_vol_steps=9
 persist.vendor.anr.dumpthr=1
 
+# Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+
 # Brand
 Build.BRAND=MTK
 
@@ -78,6 +82,9 @@ debug.sf.enable_transaction_tracing=false
 debug.sf.latch_unsignaled=true
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.use_phase_offsets_as_durations=1
+
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=1
 
 # Iorapd
 ro.iorapd.enable=false
