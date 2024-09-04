@@ -50,6 +50,7 @@ ro.vendor.bt.platform=connac1x
 ro.vendor.mtk.bt_sap_enable=true
 
 # Camera
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram,tw.nekomimi.nekogram
 camera.disable_zsl_mode=1
 ro.vendor.camera_tran_hal_server_support=1
 vendor.camera.mdp.dre.enable=1
