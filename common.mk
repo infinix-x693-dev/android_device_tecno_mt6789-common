@@ -140,10 +140,10 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd
 
-# FM Radio
+# Fingerprint
 PRODUCT_PACKAGES += \
-    FMRadio
-    
+    android.hardware.biometrics.fingerprint@2.1.vendor:64
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
