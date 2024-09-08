@@ -1091,10 +1091,6 @@ vendor/etc/tran_camprofiles.xml
 vendor/bin/chipinfo
 vendor/etc/init/chipinfo_init.rc
 
-# Charger
-bin/kpoc_charger
-etc/init/kpoc_charger.rc
-
 # Connectivity
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
