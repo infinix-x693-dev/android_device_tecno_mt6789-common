@@ -25,7 +25,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR_COMMON:-$VENDOR}" "${ANDROID_ROOT}" true
 
 # Warning headers and guards
-write_headers "LG7n LG8n"
+write_headers "LG7n LG8n hyperreal luminance"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
