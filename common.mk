@@ -262,7 +262,7 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc-service.nxp \
+    android.hardware.nfc@1.2.vendor \
     com.android.nfc_extras \
     NfcNci \
     SecureElement \
