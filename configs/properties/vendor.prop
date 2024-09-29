@@ -19,7 +19,6 @@ persist.vendor.audiohal.aurisys.pcm_dump_on=0
 persist.vendor.audiohal.p2w_dump_on=0
 persist.vendor.audiohal.pcm_mixer_dump_on=0
 
-
 # Boostfwk
 vendor.boostfwk.aosp_fling=1
 vendor.boostfwk.aosp_move=1
@@ -301,7 +300,6 @@ ro.vendor.sim_me_lock_mode=3
 ro.vendor.mtk.sensor.support=yes
 
 # SurfaceFlinger
-
 persist.vendor.uxcompaction_enable=true
 ro.vendor.mtk_ovl_bringup=0
 ro.vendor.mml.mtk_mml_support=0
