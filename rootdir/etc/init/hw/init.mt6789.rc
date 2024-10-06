@@ -45,7 +45,7 @@ on late-init
 
 # mount different fs start
 
-on charger
+on property:init.svc.vendor.charger=running
     chmod 0660 /dev/spm
     chown system system /dev/spm
     chmod 0666 /dev/kmsg
