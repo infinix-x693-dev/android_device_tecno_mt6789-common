@@ -764,8 +764,6 @@ on boot
     chmod 0666 /sys/devices/platform/odm/odm:tran_battery/CHG_CAPACITY_TEST
     chmod 0666 /sys/devices/platform/odm/odm:tran_battery/tran_set_current
     chmod 0666 /sys/devices/platform/charger/Charger_Type
-	chown system system /sys/devices/platform/charger/tran_aichg_bigdata
-	chmod 0666 /sys/devices/platform/charger/tran_aichg_bigdata
     #BSP:add for charger&led midtest by lei.shi5 20220505 end
     #MG-CHG(Bypass):wireless function by yongqing 20221008 start
     chmod 0666 /sys/wireless/wireless/Rx/brushFW
@@ -773,12 +771,6 @@ on boot
     chmod 0666 /sys/wireless/wireless/Rx/rxdetect
     chmod 0666 /sys/wireless/wireless/Rx/fake_rx_detect
     #MG-CHG(Bypass):wireless function by yongqing 20221008 start
-
-
-    #MG-CHG(Bypass):bypass function by yongqing 20221008 start
-    chown system system /sys/devices/platform/charger/tran_aichg_disable_charger
-    chmod 0666 /sys/devices/platform/charger/tran_aichg_disable_charger
-    #MG-CHG(Bypass):bypass function by yongqing 20221008 start
 
     chown system system /sys/devices/system/cpu/cpufreq/hotplug/cpu_num_base
     chmod 0660 /sys/devices/system/cpu/cpufreq/hotplug/cpu_num_base
