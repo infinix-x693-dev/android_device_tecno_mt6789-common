@@ -794,7 +794,6 @@ vendor/lib/mt6789/lib3a.ae.so
 vendor/lib/mt6789/lib3a.awb.core.so
 vendor/lib/mt6789/lib3a.log.so
 vendor/lib/mt6789/libaal_cust_func.so
-vendor/lib/mt6789/libaalservice.so
 vendor/lib/mt6789/libaiselector.so
 vendor/lib/mt6789/libdpframework.so
 vendor/lib/mt6789/libgpudataproducer.so
@@ -928,7 +927,6 @@ vendor/lib64/mt6789/lib_sr_indep_ocl.so
 vendor/lib64/mt6789/libaaa_ltm.so
 vendor/lib64/mt6789/libaaa_ltmx.so
 vendor/lib64/mt6789/libaal_cust_func.so
-vendor/lib64/mt6789/libaalservice.so
 vendor/lib64/mt6789/libacdk.so
 vendor/lib64/mt6789/libaiawb_moon.so
 vendor/lib64/mt6789/libaiawb_p1ggm.so
@@ -1017,7 +1015,6 @@ vendor/lib64/libMegviiHum.so
 vendor/lib64/libNoFpsActor.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
-vendor/lib64/libaal_cust.so
 vendor/lib64/libaal_key.so
 vendor/lib64/libaal_mtk.so
 vendor/lib64/libaedv.so
@@ -1117,7 +1114,6 @@ vendor/lib/hw/mt6789/gralloc.common.so
 vendor/lib/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so
 vendor/lib/hw/mt6789/vulkan.mali.so
 vendor/lib/mt6789/arm.graphics-V1-ndk_platform.so
-vendor/lib/mt6789/libaalservice.so
 vendor/lib/mt6789/libaiselector.so
 vendor/lib/mt6789/libdpframework.so
 vendor/lib/mt6789/libgpudataproducer.so
@@ -1130,7 +1126,6 @@ vendor/lib/libDefaultFpsActor.so
 vendor/lib/libFrameRecord.so
 vendor/lib/libNoFpsActor.so
 vendor/lib/libOpenCL.so
-vendor/lib/libaal_cust.so
 vendor/lib/libaal_key.so
 vendor/lib/libaal_mtk.so
 vendor/lib/libged.so
@@ -1174,7 +1169,6 @@ vendor/lib64/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so
 vendor/lib64/hw/mt6789/vulkan.mali.so
 vendor/lib64/hw/hwcomposer.mtk_common.so
 vendor/lib64/mt6789/arm.graphics-V1-ndk_platform.so
-vendor/lib64/mt6789/libaalservice.so
 vendor/lib64/mt6789/libaiselector.so
 vendor/lib64/mt6789/libdpframework.so
 vendor/lib64/mt6789/libgpudataproducer.so
@@ -1187,7 +1181,6 @@ vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libFrameRecord.so
 vendor/lib64/libNoFpsActor.so
 vendor/lib64/libOpenCL.so
-vendor/lib64/libaal_cust.so
 vendor/lib64/libaal_key.so
 vendor/lib64/libaal_mtk.so
 vendor/lib64/libcomposer_ext.so
