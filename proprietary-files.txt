@@ -848,8 +848,6 @@ vendor/lib/libhevce_sb.ca7.android.so
 vendor/lib/libhevce_sb.ca7.android.so
 vendor/lib/libhydra.so
 vendor/lib/libhydra.so
-vendor/lib/libhyperion_hap_ca.so
-vendor/lib/libhyperion_hap_ca.so
 vendor/lib/libicd_decoder.so
 vendor/lib/libicd_decoder.so
 vendor/lib/libimgsensorca.so
@@ -1036,7 +1034,6 @@ vendor/lib64/libhdrvideo.so
 vendor/lib64/libheichal.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libhydra.so
-vendor/lib64/libhyperion_hap_ca.so
 vendor/lib64/libicd_decoder.so
 vendor/lib64/libifcutils_mtk.so
 vendor/lib64/libimagebuffer_wrapper.so
@@ -1067,7 +1064,6 @@ vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 
 # Camera (TranCam Dependencies)
-vendor/bin/hw/vendor.transsion.hardware.hyperion.hap@1.0-service
 vendor/bin/hw/vendor.transsion.hardware.trancam.trancamserver@1.0-service
 vendor/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc
 vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml
@@ -1656,12 +1652,10 @@ vendor/bin/rt5512_calibration
 vendor/etc/init/init.otg.rc
 vendor/etc/init/md_monitor.rc
 vendor/etc/init/vendor.mediatek.hardware.tranHwInfo@1.0-service.rc
-vendor/etc/init/vendor.transsion.hardware.hyperion.hap@1.0-service.rc
 -vendor/etc/vintf/manifest/vendor.mediatek.hardware.tranHwInfo@1.0.xml
 vendor/lib/mt6789/libmtk_drvb.so
 vendor/lib/libccci_util.so
 vendor/lib/libhydra.so
-vendor/lib/libhyperion_hap_ca.so
 vendor/lib/libminiui.so
 vendor/lib/libmmprofile.so
 vendor/lib/libmtk_bsg.so
@@ -1683,7 +1677,6 @@ vendor/lib64/lib_iir.so
 vendor/lib64/libfeaturepolicy.so
 vendor/lib64/libheichal.so
 vendor/lib64/libhydra.so
-vendor/lib64/libhyperion_hap_ca.so
 vendor/lib64/libimagebuffer_wrapper.so
 vendor/lib64/libminiui.so
 vendor/lib64/libmtk_bsg.so
@@ -1695,7 +1688,6 @@ vendor/lib64/libwo.so
 vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/vendor.mediatek.hardware.tranHwInfo@1.0.so
-vendor/lib64/vendor.transsion.hardware.hyperion.hap@1.0.so
 vendor/lib64/vendor.transsion.hardware.transtorage.storage@1.0.so
 vendor/lib/libimsg_log.so
 vendor/lib64/libimsg_log.so
