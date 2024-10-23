@@ -1,12 +1,9 @@
-# audio
-ro.audio.silent=0
-ro.camera.sound.forced=0
-
 # Audio
 persist.vendor.anr.dumpthr=1
-ro.audio.silent=0
 ro.audio.usb.period_us=16000
 ro.config.vc_call_vol_steps=9
+ro.audio.silent=0
+ro.camera.sound.forced=0
 
 # Blur
 ro.sf.blurs_are_expensive=1
@@ -17,7 +14,6 @@ Build.BRAND=MTK
 
 # Camera
 persist.vendor.camera.privapp.list=org.lineageos.aperture,com.android.camera
-ro.camera.sound.forced=0
 vendor.camera.aux.packagelist=org.lineageos.aperture,com.android.camera
 vendor.camera.tran.nums=1
 
@@ -104,7 +100,6 @@ ro.config.dha_cached_min=16
 ro.config.per_app_memcg=false
 
 # MTK vendor
-ro.vendor.mtk_flv_playback_support=1
 ro.vendor.mtk_omacp_support=1
 ro.vendor.mtk_telephony_add_on_policy=0
 
