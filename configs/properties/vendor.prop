@@ -18,6 +18,7 @@ ro.vendor.mtk_audio_alac_support=1
 ro.vendor.mtk_audio_ape_support=1
 ro.vendor.mtk_audio_tuning_tool_ver=V1
 ro.vendor.mtk_hifiaudio_support=1
+ro.audio.monitorRotation=true
 
 # Boostfwk
 vendor.boostfwk.aosp_fling=1
