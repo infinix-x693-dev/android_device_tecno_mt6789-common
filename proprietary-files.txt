@@ -1775,11 +1775,6 @@ vendor/lib64/libtranlog.so
 vendor/lib64/vendor.transsion.hardware.tranlog@1.0.so
 vendor/lib64/vendor.transsion.hardware.tranlogconfig@1.0.so
 
-# USB
-vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2
-vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc
-vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
-
 # Wi-Fi
 vendor/bin/wlan_assistant
 vendor/bin/netdc

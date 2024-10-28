@@ -446,8 +446,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3.vendor \
-    android.hardware.usb.gadget@1.1.vendor
+    android.hardware.usb-service.mediatek \
+    android.hardware.usb.gadget-service.mediatek
     
 # VNDK 
 PRODUCT_COPY_FILES += \
