@@ -879,8 +879,6 @@ vendor/lib64/libcharon-ss.so
 vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libdre.so
 vendor/lib64/libdynamiclog.so
-vendor/lib64/libeffects.so
-vendor/lib64/libeffectsconfig.so
 vendor/lib64/libhdrvideo.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libimgsensorca.so
