@@ -70,9 +70,6 @@ debug.sf.predict_hwc_composition_strategy=0
 debug.sf.use_phase_offsets_as_durations=1
 ro.opengles.version=196610
 
-# Disable blur on app launch
-ro.launcher.blur.appLaunch=1
-
 # Iorapd
 iorapd.perfetto.enable=false
 iorapd.readahead.enable=false
