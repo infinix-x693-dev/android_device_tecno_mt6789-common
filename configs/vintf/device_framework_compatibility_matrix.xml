@@ -25,14 +25,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.transsion.hardware.hyperion.hap</name>
-        <version>1.0</version>
-        <interface>
-            <name>IHap</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <hal format="hidl">
         <name>vendor.transsion.hardware.trancam.trancamserver</name>
         <transport>hwbinder</transport>
@@ -83,34 +75,10 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.transsion.hardware.security.hap</name>
-        <version>1.0</version>
-        <interface>
-            <name>IHap</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.transsion.hardware.tne.tneengine</name>
         <version>1.0</version>
         <interface>
             <name>ITne</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.transsion.hardware.trandatacenter</name>
-        <version>1.0</version>
-        <interface>
-            <name>ITranDataCenter</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.transsion.performance.sched</name>
-        <version>1.0</version>
-        <interface>
-            <name>ITransSched</name>
             <instance>default</instance>
         </interface>
     </hal>

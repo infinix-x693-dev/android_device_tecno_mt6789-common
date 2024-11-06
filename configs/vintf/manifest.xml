@@ -510,16 +510,6 @@
         <fqname>@1.0::INxpNfcLegacy/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.transsion.hardware.hyperion.hap</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IHap</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IHap/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.transsion.hardware.tranlog</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
