@@ -20,7 +20,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Force any prefer32 targets to be compiled as 64 bit.
-FORCE_MULTILIB_FIRST_ON_DEVICE := true
+IGNORE_PREFER32_ON_DEVICE := true
 
 # Audio 
 BOARD_USES_ALSA_AUDIO := true
