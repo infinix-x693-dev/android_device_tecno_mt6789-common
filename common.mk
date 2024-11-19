@@ -465,7 +465,8 @@ PRODUCT_COPY_FILES += \
 
 # vndservice
 PRODUCT_PACKAGES += \
-   vndservicemanager
+   vndservicemanager \
+   vndservice
     
 # Wi-Fi
 PRODUCT_PACKAGES += \
