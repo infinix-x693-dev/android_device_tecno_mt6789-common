@@ -1440,11 +1440,6 @@ vendor/lib/libmtk_bsg.so
 vendor/lib/libmtkhardware_legacy.so
 vendor/lib/libpixelflinger.so
 vendor/lib64/mt6789/librmsclib1.so
-vendor/lib64/lib_eara_io_scndet.so
-vendor/lib64/lib_eara_io_service.so
-vendor/lib64/lib_eara_io_systracer.so
-vendor/lib64/lib_eara_io_timer.so
-vendor/lib64/lib_eara_io_util.so
 vendor/lib64/lib_iir.so
 vendor/lib64/libfeaturepolicy.so
 vendor/lib64/libheichal.so
