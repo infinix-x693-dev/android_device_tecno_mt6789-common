@@ -125,8 +125,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0.vendor \
     libdrm.vendor \
     libhwc2on1adapter \
-    libhwc2onfbadapter \
-    libutils-v32
+    libhwc2onfbadapter
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -404,7 +403,6 @@ PRODUCT_PACKAGES += \
     libnetutils.vendor \
     libdumpstateutil.vendor \
     libpower.vendor \
-    libhidlbase_shim \
     libruy.vendor \
     libpcap.vendor \
     libsqlite.vendor \
