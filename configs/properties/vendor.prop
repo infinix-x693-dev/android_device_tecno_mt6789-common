@@ -20,12 +20,6 @@ ro.vendor.mtk_audio_tuning_tool_ver=V1
 ro.vendor.mtk_hifiaudio_support=1
 ro.audio.monitorRotation=true
 
-# Boostfwk
-vendor.boostfwk.aosp_fling=1
-vendor.boostfwk.aosp_move=1
-vendor.boostfwk.fling_distance_dp=20
-vendor.boostfwk.launcher_use_interaction=1
-
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hci.erroneous_data_reporting.enabled=false
