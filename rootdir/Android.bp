@@ -12,8 +12,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "fstab.mt6789",
-    src: "etc/fstab.mt6789",
+    name: "fstab.mt6768",
+    src: "etc/fstab.mt6768",
     vendor: true,
     vendor_ramdisk_available: true
 }
@@ -21,13 +21,6 @@ prebuilt_etc {
 prebuilt_etc {
     name: "init.aee.rc",
     src: "etc/init/hw/init.aee.rc",
-    sub_dir: "init/hw",
-    vendor: true
-}
-
-prebuilt_etc {
-    name: "init.mt6789.power.rc",
-    src: "etc/init/hw/init.mt6789.power.rc",
     sub_dir: "init/hw",
     vendor: true
 }
@@ -47,12 +40,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.insmod.mt6789.cfg",
-    src: "etc/init.insmod.mt6789.cfg",
-    vendor: true
-}
-
-prebuilt_etc {
     name: "init.modem.rc",
     src: "etc/init/hw/init.modem.rc",
     sub_dir: "init/hw",
@@ -60,22 +47,15 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.mt6789.rc",
-    src: "etc/init/hw/init.mt6789.rc",
+    name: "init.mt6768.rc",
+    src: "etc/init/hw/init.mt6768.rc",
     sub_dir: "init/hw",
     vendor: true
 }
 
 prebuilt_etc {
-    name: "init.mt6789.usb.rc",
-    src: "etc/init/hw/init.mt6789.usb.rc",
-    sub_dir: "init/hw",
-    vendor: true
-}
-
-prebuilt_etc {
-    name: "init.mtkgki.rc",
-    src: "etc/init/hw/init.mtkgki.rc",
+    name: "init.mt6768.usb.rc",
+    src: "etc/init/hw/init.mt6768.usb.rc",
     sub_dir: "init/hw",
     vendor: true
 }
@@ -88,23 +68,22 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.recovery.usb.rc",
-    src: "etc/init.recovery.usb.rc",
+    name: "init.recovery.mt6768.rc",
+    src: "etc/init.recovery.mt6768.rc",
     recovery: true,
     sub_dir: "init"
 }
 
 prebuilt_etc {
-    name: "init.sensor_2_0.rc",
-    src: "etc/init/hw/init.sensor_2_0.rc",
+    name: "init.sensor_1_0.rc",
+    src: "etc/init/hw/init.sensor_1_0.rc",
     sub_dir: "init/hw",
     vendor: true
 }
 
 prebuilt_etc {
-    name: "ueventd.mt6789.rc",
-    filename: "ueventd.rc",
-    src: "etc/ueventd.mt6789.rc",
+    name: "ueventd.rc",
+    src: "etc/ueventdrc",
     vendor: true
 }
 
