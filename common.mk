@@ -12,7 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS := \
     boot \
-    odm_dlkm \
     product \
     system \
     system_ext \
@@ -20,8 +19,7 @@ AB_OTA_PARTITIONS := \
     vbmeta_system \
     vbmeta_vendor \
     vendor \
-    vendor_boot \
-    vendor_dlkm
+    vendor_boot
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
